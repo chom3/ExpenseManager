@@ -1,0 +1,17 @@
+{
+  "name": "expense-manager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "webpack": "webpack",
+    "start": "npm run webpack && nodemon --exec babel-node -- bin/www"
+  },
+  "devDependencies": {
+    "@babel/preset-es2015": "^7.0.0-beta.46"
+  }
+}
